@@ -1,0 +1,122 @@
+.frame-57 {
+    background: #181A1C;
+    position: relative;
+    
+}
+
+.banner-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    mask-image: linear-gradient(to top, transparent, #181A1C 75% );
+    -webkit-mask-image: linear-gradient(to top, transparent, #181A1C 75% );
+}
+
+
+.frame-58 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 4%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.frame-58 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sinopsis-teks {
+    font-size: 18px;
+    max-width: 680px;
+    margin-bottom: 20px;
+}
+
+.frame-59 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.frame-61 {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    padding: 10px 24px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1E93;
+    border-radius: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.dark-btn {
+    background: #6d6d6eb3;
+}
+
+.btn:hover {
+    background: #0C1973;
+}
+
+.btn.dark-btn:hover {
+    background-color: #555555b3;
+}
+
+.frame-64 {
+    border: 1px solid #C1C2C4 ;
+    border-radius: 24px;
+    padding: 10px;
+    color: #C1C2C4;
+    align-self: center;
+    cursor: pointer;
+}
+
+.frame-65{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #C1C2C4;
+    border-radius: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.volume-off {
+    background: url("../../assets/volume-off.svg");
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+
+    .frame-65 {
+        margin: 0;
+    }
+
+    .frame-64 {
+        padding: 8px;
+    }
+}

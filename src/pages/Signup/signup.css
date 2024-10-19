@@ -1,0 +1,394 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  color: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../background\ image\ login\ page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.container-signup {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../background\ image\ signup.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+ .frame56 {
+  border-radius: 8px;
+  background: rgba(24, 26, 28, 0.84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px;
+  margin: auto;
+}
+
+ .logo {
+  margin: 0 0.2px 32px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+ .container-signup .movie-open {
+  margin: 6.2px 5px 6px 0;
+  display: flex;
+  width: 42.6px;
+  height: 36.3px;
+  box-sizing: border-box;
+}
+
+ .chill {
+  overflow-wrap: break-word;
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.1;
+  color: var(--text-light-primary, #ffffff);
+}
+
+ .frame-63 {
+  margin: 0 2px 38px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+ .daftar-1 {
+  overflow-wrap: break-word;
+  font-family: var(--caption-2-caption-2-semibold-font-family, "Lato");
+  font-weight: var(--caption-2-caption-2-semibold-font-weight, 600);
+  font-size: var(--caption-2-caption-2-semibold-font-size, 32px);
+  letter-spacing: var(--caption-2-caption-2-semibold-letter-spacing, 0.2px);
+  line-height: var(--caption-2-caption-2-semibold-line-height, 1.4);
+  color: var(--text-light-primary, #ffffff);
+}
+
+ .selamat-datang {
+  overflow-wrap: break-word;
+  font-family: var(--caption-2-caption-2-regular-font-family, "Lato");
+  font-weight: var(--caption-2-caption-2-regular-font-weight, 400);
+  font-size: var(--caption-2-caption-2-regular-font-size, 16px);
+  letter-spacing: var(--caption-2-caption-2-regular-letter-spacing, 0.2px);
+  line-height: var(--caption-2-caption-2-regular-line-height, 1.4);
+  color: var(--text-light-primary, #ffffff);
+}
+
+ .frame-52 {
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ .frame-50 {
+  margin: 0 0px 3.5px 0px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+ .username {
+  overflow-wrap: break-word;
+  font-family: var(--caption-2-caption-2-medium-font-family, "Lato");
+  font-weight: var(--caption-2-caption-2-medium-font-weight, 500);
+  font-size: var(--caption-2-caption-2-medium-font-size, 18px);
+  letter-spacing: var(--caption-2-caption-2-medium-letter-spacing, 0.2px);
+  line-height: var(--caption-2-caption-2-medium-line-height, 1.4);
+  color: var(--text-light-primary, #ffffff);
+}
+
+ .frame-47 {
+  height: 40px;
+  border-radius: 24px;
+  border: 0.6px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+  padding: 7.5px 10.3px 7.5px 10.3px;
+  width: 100%;
+  background-color: #3d4142;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+ .masukkan-username {
+  overflow-wrap: break-word;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0 8px;
+  margin: 0;
+  font-family: var(--body-medium-medium-regular-font-family, "Lato");
+  color: var(--text-light-secondary, #c1c2c4);
+}
+
+ .frame-55 {
+  margin: 12px 8.6px 0 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 8.7px);
+  box-sizing: border-box;
+}
+
+ .belum-punya-akun-daftar {
+  line-height: var(--caption-2-caption-2-regular-line-height, 1.4);
+  color: var(--text-light-secondary, #c1c2c4);
+}
+
+ .eye-off {
+  margin: 2px 10px 1.5px 0;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+ .lupa-kata-sandi {
+  text-decoration: none;
+  color: var(--text-light-secondary, #ffffff);
+}
+
+ .daftar {
+  text-decoration: none;
+  color: var(--text-light-secondary, #ffffff);
+  margin-left: 8px;
+}
+
+ .button {
+  margin-right: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 2px);
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+ .button-sign-in {
+  background: var(--other-extra, #3d4142);
+  margin-bottom: 4px;
+  display: flex;
+  padding: 7.5px 0;
+  width: 100%;
+  border-radius: 24px;
+  border: 1px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #3d4142;
+  cursor: pointer;
+  color: white;
+}
+
+ .daftar-2,
+ .daftar-dengan-google {
+  overflow-wrap: break-word;
+  font-family: var(--caption-2-caption-2-semibold-font-family, "Lato");
+  font-weight: var(--caption-2-caption-2-semibold-font-weight, 600);
+  font-size: var(--caption-2-caption-2-semibold-font-size, 16px);
+  letter-spacing: var(--caption-2-caption-2-semibold-letter-spacing, 0.2px);
+  line-height: var(--caption-2-caption-2-semibold-line-height, 1.4);
+  color: var(--text-light-primary, #ffffff);
+}
+
+ .atau {
+  margin-bottom: 4px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--caption-2-caption-2-medium-font-family, "Lato");
+  font-weight: var(--caption-2-caption-2-medium-font-weight, 500);
+  font-size: var(--caption-2-caption-2-medium-font-size, 14px);
+  letter-spacing: var(--caption-2-caption-2-medium-letter-spacing, 0.2px);
+  line-height: var(--caption-2-caption-2-medium-line-height, 1.4);
+  color: var(--text-light-disabled, #9d9ea1);
+}
+
+ .google {
+  background: url("../logo\ google.svg") 50% / cover no-repeat;
+  width: 20px;
+  height: 20px;
+  margin: 2px 8px;
+}
+
+@media  (min-width: 768px) {
+   .frame56 {
+    width: 540px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+   .frame56 {
+    width: 460px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 481px){
+   .frame56{
+    width: calc(100% - 20px);
+  }
+
+   .username,  .daftar-2,  .daftar-dengan-google,  .selamat-datang {
+    font-size: 12px;
+  }
+
+   .frame-55 {
+    font-size: 10px;
+  }
+  
+   .chill {
+    font-size: 34px;
+  }
+
+   .container-signup .movie-open {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+}

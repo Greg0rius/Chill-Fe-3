@@ -1,0 +1,168 @@
+.navbar {    
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #181A1C;
+    z-index: 1200;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.frame-70 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 80px;
+}
+
+nav .container-logo {
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.movie-open {
+     display: none;
+}
+
+
+.blog {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blog li {
+    cursor: pointer;
+}
+
+.blog li:hover {
+    color: #c1c2c4;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-ellipse {
+    display: flex;
+}
+
+.ellipse {
+    width: 40px;
+    height: 40px;
+}
+
+.keyboard-arrow-down {
+    width:28px;
+    height: 28px;
+    align-self: center;
+}
+
+.navbar .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background-color:  #181A1C;
+    padding: 18px 22px;
+    border-radius: 4px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dropdown-list li {
+    font-size: 14px ;
+    display: flex;
+}
+
+.dropdown-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-list li:hover{
+    color: #3254FF;
+}
+
+.account, .dr-star, .exit {
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.avatar:hover .dropdown{
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .blog {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .frame-70 {
+        gap: 14px;
+    }
+
+    .logo-1 img {
+        width: 60px;
+    }
+
+    .ellipse {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ellipse img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .keyboard-arrow-down{
+        width: 16px;
+        height: 16px;
+    }
+
+    .keyboard-arrow-down img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .logo-1 {
+        display: none;
+    }
+    
+    .movie-open {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}

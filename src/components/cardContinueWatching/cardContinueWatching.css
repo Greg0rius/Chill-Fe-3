@@ -1,0 +1,146 @@
+.card-continue-title .slick-list {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.card-continue-title {
+  margin: 80px 4%;
+}
+
+.card-continue-title h2 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card-continue img {
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-continue {
+  position: relative;
+}
+
+.card-continue .judul {
+  width: calc(100% - 8px);
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.card-continue .judul h3 {
+  align-self: flex-start;
+  padding-left: 4px;
+}
+
+.card-continue .judul .rating {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.card-continue .judul .rating img {
+  width: 16px;
+  height: 16px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.card-hover {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.slick-prev {
+  z-index: 1;
+}
+
+.frame-821 {
+  background-color: #181a1c;
+  padding: 16px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 13px;
+}
+
+.frame-771 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.frame-751 {
+  display: flex;
+  width: 100%;
+}
+
+.coba {
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+.frame-781 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.frame-781 button {
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+}
+
+.frame-781 button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.frame-711,
+.check {
+  border: 1px solid #9d9ea1;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.frame-711 img {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+.frame-751 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.frame-761 {
+  display: flex;
+  gap: 30px;
+  list-style-type: disc;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .card-hover {
+    display: none;
+  }
+}

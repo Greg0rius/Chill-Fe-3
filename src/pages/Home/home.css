@@ -1,0 +1,41 @@
+
+body {
+    font-family: "Lato",  Arial, Helvetica, sans-serif;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #181A1C;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.show-movie-list {
+    overflow: hidden;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .card-continue-title h2 {
+        font-size: 24px;
+    }
+
+    .movie-list-title .title {
+        font-size: 24px;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+

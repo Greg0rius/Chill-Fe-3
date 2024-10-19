@@ -1,0 +1,171 @@
+.movie-list-title .slick-list {
+    overflow-y: visible;
+    overflow-x: clip;
+}
+
+
+.movie-list-title {
+    padding: 0 4%;
+    margin-bottom: 80px;
+}
+
+.title {
+    margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.movie-list {
+    cursor: pointer;
+}
+
+.card-list img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-list .hover {
+    display: none;
+}
+
+.card-list {
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.card-container {
+    position: relative;     
+}
+
+.hover-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #181A1C;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    height: 100%; 
+    pointer-events: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.hover-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.hover-card .image-hover {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.frame-82 {
+    background-color: #181A1C;
+    padding: 16px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 13px;
+    color: white;
+}
+
+.frame-77 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame-78 {
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    
+}
+
+.frame-78 button {
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    padding: 7%;
+    border: none;
+    outline: none;
+}
+
+.frame-78 button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.frame-71 {
+    border: 1px solid #9D9EA1;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+
+.frame-71 img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.frame-75 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.frame-75 .age {
+    background-color: #CDF1FF4D;
+    padding: 4px 12px;
+    border-radius: 30px;
+    color: #C1C2C4;
+}
+
+.frame-76 {
+    display: flex;
+    gap: 30px;
+    list-style-type: disc;
+    overflow: hidden;
+}
+
+@media (min-width: 1000px ) and (max-width: 1440px) {
+    .frame-78 {
+        gap: 4px;
+    }
+
+    .frame-78 button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .frame-71 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .frame-82 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hover-card {
+        display: none;
+    }
+
+    .image-contain {
+        opacity: 1 !important;
+    }
+}
+
+
